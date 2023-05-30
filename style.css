@@ -13,18 +13,7 @@
     align-items: center;
     padding: 20px;
   }
-  .abhaypa input{
-    height: 44px;
-    border: #eae6e6;
-    border-radius: 44%;
-    width: 352px;
-    margin-left: 286px;
-    margin-top: -14px;
-    padding-left: 78px;
-    font-size: 17px;
 
-  }
-  
   nav {
     flex: 1;
     text-align: right;
