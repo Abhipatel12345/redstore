@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abhay website</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body{
+        color: aliceblue;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/tree.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 200px; 
+        zoom: 100%;
+        
+    }
+    .first{
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 15px;
+        top: 23px;
+        width: 90px;
+
+
+    }
+    
+    .first img{
+        width: 84px;
+        height: 43px;
+        filter: invert(134%)
+    }
+    .first div{
+        text-align: center;
+    }
+    .center{
+        display: block;
+        width: 190%;
+        margin: 30px 500px;
+        /* border: 2px solid white; */
+
+
+
+    }
+    .third{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid yellowgreen; */
+        width: 100px;
+
+    }
+    .navbar{
+        disply: inline-block;
+
+
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 3px;
+
+
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: grey;
+
+    }
+    .btn{
+       
+        margin: 10px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+
+    }
+
+    
+    .bat{
+
+        margin: 10px;
+        padding: 20px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        /* animation-name: button; */
+    }
+    
+    
+    .bat:hover{
+        background-color: yellow;
+        color: aqua;
+    }
+    .btn:hover{
+        color: brown;
+        background-color: white;
+    }
+    .third button:hover{
+        text-decoration: underline;
+        color: grey;
+        background-color: lightgray;
+
+    }
+    .container{
+        border: 2px solid white;
+        margin: 102px 282px;
+        padding: 82px 126px;
+        width: 187%;
+        border-radius: 20%;
+            
+
+    }
+    .form-group input {
+        
+        text-align: center;
+        display: block;
+        width: 357px;
+        padding: 0px;
+        border: 4px solid white;
+        margin: 11px auto;
+        border-radius: 13px
+
+    }
+    .btn{
+        @media{
+            /* font:; */
+        }
+
+    }
+ 
+    
+</style>
+<body>
+    
+    <header class="header">
+        <!-- logo -->
+        <div class="first">
+            <a href="index.html"><img src="img/6472221.jpg" alt="" ></a>
+            <div>ABHAY CREATION</div>
+            
+        </div>
+ 
+        <!-- <div class="second">
+            <img src="img/abhay.png" alt="" >
+            <div>ABHAY CREATION</div>
+        </div> -->
+
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">   Home     </a></li>
+                <li><a href="#">   About     </a></li>
+                <li><a href="#"class="action">   Nature     </a></li>
+                <li><a href="#">    Contact us </a></li>
+            </ul>
+        </div>
+        <div class="third">
+            <button class="btn">call us </button>
+            <button class="btn">email id </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>EXPLOE YOUR NATURE</h1>
+        <FORm action="noaction.php">
+            
+            <div class="form-group">
+                <input type="text " placeholder="Enter Your Name ">
+            </div>
+            <div class="form-group">
+                <input type="text " placeholder="Enter Your age ">
+            </div>
+            <div class="form-group">
+                <input type="text " placeholder="Enter Your DOB">
+            </div>
+            <div class="form-group">
+                <input type="text " placeholder="Enter Your contact">
+            </div>
+            <div class="form-group">
+                <input type="text " placeholder="Enter Your email ">
+            </div>
+            <BUTTON class="btn" > 
+             sign up
+            </BUTTON>
+
+            <a href="index.html"><button class="bat"> sign in </button></a>
+            
+
+
+        </FORm>
+    </div>
+
+</body>
+</html>
